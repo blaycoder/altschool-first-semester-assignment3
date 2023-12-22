@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Assignment 3 - WP PUSHER CHECKOUT</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="navbar">
+                <div id="logo">
+                    <img src="assets/images/wppusher-logo.png" alt="logo">
+                </div>
+                <div class="nav-links">
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><button>Account</button></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="checkout-container">
+                <div class="checkout-details">
+                    <h2 class="checkout-title">Checkout</h2>
+                    <div class="checkout-user-details">
+                        <div class="checkout-title-header">
+                            <div class="numbering-list">
+                                1
+                            </div>
+                            <div class="user-details-title">
+                                <h3>Your basic information</h3>
+                            </div>
+                        </div>
+
+                        <div class="user-form-details">
+                            <div class="form-input-row">
+                                <div class="first-name-field">
+                                    <label for="firstName">First Name:</label>
+                                    <input type="text" id="firstName" name="firstName" required placeholder="Jane">
+                                </div>
+                                <div class="last-name-field">
+                                    <label for="lastName">Last Name:</label>
+                                    <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                                </div>
+                            </div>
+
+                            <div class="form-input-row">
+                                <div class="email-field">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="janedoe@example.com">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout-payment-details">
+                        <div class="checkout-title-header">
+                            <div class="numbering-list">
+                                2
+                            </div>
+                            <div class="user-details-title">
+                                <h3>Your payment information</h3>
+                            </div>
+                        </div>
+                        <div class="user-form-details">
+                            <div class="form-input-row card-input-row">
+                                <div class="credit-card-field">
+                                    <label for="creditCard">Credit Card:</label>
+                                    <div class="credit-card-input">
+                                        <input type="text" id="creditCard" name="creditCard" required
+                                            placeholder="Card Number">
+                                        <input type="text" id="cardDate" name="cardDate" required placeholder="MM / YY">
+                                        <input type="text" id="cardCVV" name="cardCVV" required placeholder="CVC">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkout-btn">
+                        <button type="submit">Buy WP Pusher</button>
+                    </div>
+                </div>
+
+                <div class="help-text">
+                    <div class="numbering-list need-help-icon">
+                        ?
+                    </div>
+                    <div class="help-content">
+                        <span>Need any help?</span> Don't hesitate to <a href="#">contact support</a>!
+                    </div>
+                </div>
+                <div class="sponsor-logo">
+                    <img src="assets/images/stripe.png" alt="stripe logo">
+                </div>
+            </div>
+
+
+            <div class="pricing-plan-container">
+                <div class="pricing-plan-details">
+                    <h2 class="plan-title">Freelancer</h2>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
