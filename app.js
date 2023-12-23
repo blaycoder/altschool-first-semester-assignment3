@@ -1,4 +1,4 @@
-let menuBtn = document.querySelector("#navbar .nav-links");
+let menuBtn = document.querySelector("#navbar .nav-links ul");
 
 
 // Function to toggle the bar

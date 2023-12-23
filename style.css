@@ -404,7 +404,7 @@ li a {
   display: none;
 }
 
-#navbar .nav-links {
+#navbar .nav-links ul {
   display: flex;
   gap: 44px;
   align-items: center;
@@ -791,7 +791,7 @@ li a {
   .user-form-details .card-input-row .credit-card-field .credit-card-input input:first-of-type{width: unset;}
   .pricing-plan-container .pricing-plan-details .switch-plan h2::after{width: 57%;}
   .pricing-plan-container .pricing-plan-details .testimonial-person{margin-bottom: 41px;}
-  #navbar .nav-links{display: none; position: absolute; right:0%; top: 15%; background-color: #0c0433; padding: 25px; z-index: 999;}
+  #navbar .nav-links ul{display: none; position: absolute; right:0%; top: 15%; background-color: #0c0433; padding: 25px; z-index: 999;}
    #navbar .nav-links li{padding-bottom: 15px;}
   #navbar .nav-links li a, #navbar .nav-links li a:hover {color: #fff}
   #navbar .nav-links li button{margin-top: 20px; color: #fff; border: 2px solid #fff;}
