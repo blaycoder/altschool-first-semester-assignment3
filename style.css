@@ -3,7 +3,7 @@
 /* font
    ========================================================================== */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 /* CSS variables
    ========================================================================== */
@@ -615,29 +615,86 @@ li a {
   color: #646e7a;
 }
 
-.checkout-container .sponsor-logo{text-align: center; margin:34px 0px 46.9px;}
+.checkout-container .sponsor-logo {
+  text-align: center;
+  margin: 34px 0px 46.9px;
+}
 
 /*Pricing plan*/
 .pricing-plan-container {
   background-color: #1179bf;
+  padding-left: 46px;
 }
 
-.pricing-plan-container .plan-title{
+.pricing-plan-container .plan-title {
   font-size: 1.25em;
   color: #fff;
   padding-top: 42px;
 }
 
-.pricing-plan-container .pricing-plan-details .plan-price{
+.pricing-plan-container .pricing-plan-details .plan-price {
   position: relative;
-  border: 1px solid red;
-  /* font-size: 3.75em; */
+  /* border: 1px solid red; */
+  width: fit-content;
 }
 
-.pricing-plan-container .pricing-plan-details .plan-price span sup{
-  /* font-size: 1.5em; */
+.pricing-plan-container .pricing-plan-details .plan-price h3 {
+  font-size: 3.75em;
+  color: #fff;
+  padding: 0px 20px;
+  font-weight: 300;
 }
 
-.pricing-plan-container .pricing-plan-details .plan-price span sub{
-  /* font-size: 1.125em; */
+.pricing-plan-container .pricing-plan-details .plan-price span:nth-of-type(1) {
+  font-weight: 700;
+  position: absolute;
+  top: calc(50% - 28px);
+  color: #fff;
+  font-size: 24px;
+}
+
+.pricing-plan-container .pricing-plan-details .plan-price span:last-of-type {
+  font-size: 18px;
+  position: absolute;
+  right: -25%;
+  top: calc(60% - 2px);
+  font-weight: 700;
+  color: #fff;
+}
+
+.pricing-plan-container .pricing-plan-details .renew-date {
+  font-size: 1em;
+  color: #fff;
+  line-height: 24px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.pricing-plan-container .pricing-plan-details .plan-features {
+  margin-top: 38px;
+}
+
+.pricing-plan-container .pricing-plan-details .plan-feature {
+  display: flex;
+  gap: 11px;
+}
+
+.pricing-plan-container .pricing-plan-details .plan-feature:not(:last-of-type){
+  padding-bottom: 16px;
+}
+
+.pricing-plan-container .pricing-plan-details .plan-feature .checklist-point {
+  font-size: 1em;
+  line-height: 24px;
+  font-weight: var(--default-font-weight);
+  color: #fff;
+}
+.pricing-plan-container .pricing-plan-details .switch-plan{
+  margin-top: 38px;
+  color: #fff;
+}
+
+.pricing-plan-container .pricing-plan-details .switch-plan h3, .pricing-plan-container .pricing-plan-details .switch-plan h2{
+  font-size: var(--default-font-size);
+  font-weight: 400;
 }
