@@ -698,3 +698,7 @@ li a {
   font-size: var(--default-font-size);
   font-weight: 400;
 }
+
+.pricing-plan-container .pricing-plan-details .switch-plan h3{
+  padding-bottom: 3px;
+}
