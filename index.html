@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e24c8eb399.js" crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
     <title>Assignment 3 - WP PUSHER CHECKOUT</title>
 </head>
@@ -22,6 +23,18 @@
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Help</a></li>
                     <li><button>Account</button></li>
+                </div>
+                <div class="menu-mb-nav">
+                        <a href="#navigation-main" aria-label="Skip to main navigation" onclick="toggleNav()">
+                            <i class="fa-solid fa-bars" aria-hidden="true" onclick="toggleIcon(this)"></i>
+                        </a>
+
+                    <!-- <div class="menu-open">
+                        <a href="#navigation-main" aria-label="Skip to main navigation">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                        </a>
+                    </div> -->
+                    
                 </div>
             </div>
         </nav>
@@ -111,7 +124,8 @@
                 <div class="pricing-plan-details">
                     <h2 class="plan-title">Freelancer</h2>
                     <div class="plan-price">
-                        <span>$</span> <h3>99</h3><span>/ year</span>
+                        <span>$</span>
+                        <h3>99</h3><span>/ year</span>
                     </div>
                     <div class="renew-date">
                         Automatically renews <br />after 1 year
@@ -131,7 +145,7 @@
                                 <img src="assets/images/checklist-bullet.png" alt="checklist">
                             </div>
                             <div class="checklist-point">
-                               Private repositories
+                                Private repositories
                             </div>
                         </div>
 
@@ -148,6 +162,20 @@
                     <div class="switch-plan">
                         <h3>Need <strong>20</strong> client sites?</h3>
                         <h2>Switch to the Agency Plan.</h2>
+                    </div>
+                    <div class="divider">
+                    </div>
+
+                    <div class="testimonial-text">
+                        FTP is horrible to deal with. <br> <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
+                    </div>
+                    <div class="testimonial-person">
+                        <div class="image">
+                            <img src="assets/images/kirkk-beard.png" alt="">
+                        </div>
+                        <div class="name">
+                            Kirk Beard
+                        </div>
                     </div>
                 </div>
             </div>
