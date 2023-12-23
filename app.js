@@ -1,18 +1,16 @@
-// const menuMb = document.querySelector(".menu-mb-nav i");
-// let navLinks = document.querySelector("#navbar .nav-links")
-let x = document.querySelector("#navbar .nav-links");
+let menuBtn = document.querySelector("#navbar .nav-links");
 
 
 // Function to toggle the bar
 function toggleNav() {
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (menuBtn.style.display === "block") {
+    menuBtn.style.display = "none";
   } else {
-    x.style.display = "block";
+    menuBtn.style.display = "block";
   }
 }
 
 // Function to toggle the plus hamburger into close
-function toggleIcon(x) {
-  x.classList.toggle("fa-xmark");
+function toggleIcon(menuBtn) {
+  menuBtn.classList.toggle("fa-xmark");
 }
